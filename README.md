@@ -2,6 +2,7 @@
 
 A clean, beginner-friendly, and interactive Data Structures Visualizer built strictly with vanilla HTML, CSS, and JavaScript. 
 
+![Data Structures Visualizer Screenshot](sample.png)
 ## Features
 - **6 Supported Data Structures**:
   - Stack
