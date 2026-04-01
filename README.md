@@ -14,7 +14,6 @@ A clean, beginner-friendly, and interactive Data Structures Visualizer built str
   - Binary Search Tree & AVL Tree 
 - **Operations:** Insert and Delete functionality with smooth step-by-step CSS animations.
 - **Smart Panning & Zooming:** Navigate massive Binary Search Trees seamlessly via click-and-drag panning and scroll-wheel zooming within the canvas!
-- **Beginner-Friendly Codebase:** The entire JavaScript logic is written specifically for 1st-year computer science students (leveraging standard `var`, loops, and explicit logic over advanced syntactic sugar).
 - **Themes:** Fully responsive and seamlessly toggles between Light and Dark mode.
 
 ## How to Start / Run Locally
