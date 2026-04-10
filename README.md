@@ -77,10 +77,7 @@ A clean, interactive web application to **visualize foundational data structures
 git clone https://github.com/punitxdev/Data-Structures-Visualizer.git
 cd Data-Structures-Visualizer
 
-# Bootstrapping locally (Execute applicable command)
-open index.html                    # macOS
-xdg-open index.html                # Linux
-python3 -m http.server 8080        # Any operating system → localhost:8080
+open index.html
 ```
 
 > **No installation operations. No build overhead. Designed for direct loading execution.**
