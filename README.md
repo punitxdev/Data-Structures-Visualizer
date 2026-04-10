@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🧱 Data Structures Visualizer
+# Data Structures Visualizer
 
-### _Watch data structures come alive_
+### Watch fundamental data structures execute interactively.
 
 <br>
 
@@ -12,7 +12,7 @@
 
 <br>
 
-A clean, interactive web app to **visualize fundamental data structures** with smooth step-by-step CSS animations, pan & zoom navigation, and dark/light theme support — built entirely with vanilla HTML, CSS, and JavaScript.
+A clean, interactive web application to **visualize foundational data structures** utilizing responsive CSS animations, scalable pan and zoom navigation, and structured dark and light themes — engineered entirely native with Vanilla HTML, CSS, and JavaScript.
 
 <br>
 
@@ -26,32 +26,32 @@ A clean, interactive web app to **visualize fundamental data structures** with s
 
 <br>
 
-## 🎯 Supported Data Structures
+## Supported Data Structures
 
 <table>
 <tr>
 <td width="50%">
 
-### 📚 Linear Structures
+### Linear Structures
 
 | Structure | Operations | Behavior |
 |---|:---:|---|
 | **Stack** | Push / Pop | LIFO — Last In, First Out |
 | **Queue** | Enqueue / Dequeue | FIFO — First In, First Out |
-| **Priority Queue** | Insert / Delete | Sorted by priority (ascending) |
-| **Deque** | Insert/Delete Front & Rear | Double-ended access |
+| **Priority Queue** | Insert / Delete | Sorted strictly by priority parameters |
+| **Deque** | Insert/Delete Front & Rear | Double-ended sequence architecture |
 
 </td>
 <td width="50%">
 
-### 🔗 Node-Based Structures
+### Node-Based Structures
 
 | Structure | Operations | Behavior |
 |---|:---:|---|
-| **Singly Linked List** | Insert / Delete by value | Forward traversal only |
-| **Doubly Linked List** | Insert / Delete by value | Bi-directional traversal |
-| **Binary Search Tree** | Insert / Delete by value | Ordered binary tree |
-| **AVL Tree** | Insert / Delete by value | Self-balancing BST |
+| **Singly Linked List** | Insert / Delete by value | Standard forward traversal mapping |
+| **Doubly Linked List** | Insert / Delete by value | Connected bi-directional traversal |
+| **Binary Search Tree** | Insert / Delete by value | Structurally ordered binary routing |
+| **AVL Tree** | Insert / Delete by value | Height-balanced self-equalizing structure |
 
 </td>
 </tr>
@@ -59,89 +59,73 @@ A clean, interactive web app to **visualize fundamental data structures** with s
 
 <br>
 
-## ✨ Key Features
+## Key Features
 
-- 🎬 **Step-by-Step Animations** — Watch every insert and delete operation play out with smooth CSS transitions
-- 🔍 **Pan & Zoom** — Click-and-drag to pan, scroll-wheel to zoom — navigate massive trees effortlessly
-- 🌗 **Dark / Light Theme** — One-click toggle between dark and light modes
-- 📱 **Fully Responsive** — Works great on desktop and tablets
-- 🧮 **8 Data Structures** — From simple stacks to self-balancing AVL trees
-- 🚫 **Zero Dependencies** — No npm, no build tools, no frameworks — pure vanilla
+- **Step-by-Step Animations**: Observe insertion and deletion processing steps with clean CSS transition sequences.
+- **Pan and Zoom Engine**: Execute click-and-drag panning combined with scroll-wheel magnification to efficiently navigate massive nodal networks.
+- **Dynamic Theming**: Fluid system-compatible dark to light mode configurations.
+- **Broad Scale Responsiveness**: Presentation layers map seamlessly spanning desktop platforms and mobile tablets.
+- **Complete Visual Mapping**: 8 active programmatic data models, scaling from primitive LIFO stacks to self-balancing algorithms.
+- **Lightweight Architecture**: Deployed without external compilation elements — pure native Vanilla browser parsing.
 
 <br>
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# Clone it
+# Clone the repository root directory
 git clone https://github.com/punitxdev/Data-Structures-Visualizer.git
 cd Data-Structures-Visualizer
 
-# Run it (pick one)
+# Bootstrapping locally (Execute applicable command)
 open index.html                    # macOS
 xdg-open index.html                # Linux
-python3 -m http.server 8080        # Any OS → localhost:8080
+python3 -m http.server 8080        # Any operating system → localhost:8080
 ```
 
-> **No install. No build. Just open and start visualizing.**
+> **No installation operations. No build overhead. Designed for direct loading execution.**
 
 <br>
 
-## 📁 Project Structure
+## Project Structure
 
-```
-📦 Data-Structures-Visualizer
- ┣ 📄 index.html          → Page layout with controls & canvas
- ┣ 🎨 style.css           → Full styling, themes, animations & layouts
- ┣ 🔧 utils.js            → Shared DOM helpers & utility functions
- ┣ 🔗 main.js             → Core event listeners, pan/zoom & initialization
- ┣ 📚 stack.js            → Stack (LIFO) implementation
- ┣ 📚 queue.js            → Queue (FIFO) implementation
- ┣ 📚 priority-queue.js   → Priority Queue (sorted insert)
- ┣ 📚 deque.js            → Double-Ended Queue (front/rear ops)
- ┣ 📚 linked-list.js      → Singly & Doubly Linked List
- ┣ 🌳 tree.js             → BST & AVL Tree with auto-balancing
- ┗ 📝 README.md
+```text
+Data-Structures-Visualizer
+ ├── index.html          → Semantic structural presentation and canvas rendering
+ ├── style.css           → Global layout implementations and CSS transitional frames
+ ├── utils.js            → Core modular functions handling mathematical and rendering logic
+ ├── main.js             → Initialization state controller covering event management
+ ├── stack.js            → Operations representing standard stack structures
+ ├── queue.js            → Procedural queue models integration
+ ├── priority-queue.js   → Ordered queue matrix representations
+ ├── deque.js            → Advanced double-ended manipulations
+ ├── linked-list.js      → List abstractions linking variables independently
+ ├── tree.js             → Advanced self-correcting logic loops
+ └── README.md
 ```
 
 <br>
 
-## 🛠️ Built With
+## Built With
 
-| Tech | Purpose |
+| Technology | Purpose |
 |---|---|
-| **HTML5** | Semantic page structure |
-| **CSS3** | Animations, transitions, dark/light themes, Flexbox layouts |
-| **Vanilla JS** | Async animations, DOM manipulation, data structure logic |
-| **Google Fonts** | Inter typeface |
+| **HTML5** | Primary Document Object mapping properties |
+| **CSS3** | Transitional keyframes, rendering matrices, Flex layouts |
+| **Vanilla JS** | Client procedural engine mappings and DOM logic sequences |
+| **Google Fonts** | Typographic configuration parameters |
 
 <br>
 
-## 🤝 Contributing
+## Contributing
 
-Contributions, issues, and feature requests are welcome!
+Constructive architectural reviews and feature inclusions are supported.
 
 ```bash
-# Fork → Branch → Commit → Push → PR
+# Operational Contribution Protocol
 git checkout -b feature/new-structure
-git commit -m "Add heap visualization"
+git commit -m "Initialize sequential heap processing structure"
 git push origin feature/new-structure
 ```
 
 <br>
-
-## 📄 License
-
-Open source under the [MIT License](LICENSE).
-
-<br>
-
-<div align="center">
-
----
-
-**Made with ❤️ by [punitxdev](https://github.com/punitxdev)**
-
-_If you found this useful, give it a ⭐!_
-
-</div>
